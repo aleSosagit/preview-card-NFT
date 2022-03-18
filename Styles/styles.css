@@ -60,38 +60,41 @@ body {
     justify-content: center;
 }
 
-.square{
-    width: 400px;
-    height: 400px;
-    margin: 20px 0 40px 0;
-    border-radius: 10px;
-    position: absolute;
-    background: hsla(178, 100%, 50%, 0);
-}
-
-.square:hover{
+.hover-card{
     width: 400px;
     height: 400px;
     margin: 20px 0 40px 0;
     border-radius: 10px;
     position: absolute;
     background: hsla(178, 100%, 50%, 0.5);
-    cursor: pointer;
+    opacity: 0;
+    align-items: center;
 }
+
+.hover-card:hover{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0 40px 0;
+    border-radius: 10px;
+    background: hsla(178, 100%, 50%, 0.336);
+    opacity: 100;
+    cursor: pointer;
+
+}
+
 
 .PreviewImage{
     width: 400px;
     margin: 20px 0 40px 0;
-    border-radius: 10px;
-    cursor: pointer;
-    
+    border-radius: 10px; 
 }
 
 .View-icon{
     position: absolute;
-    margin: 0auto;
+    /*margin: 0auto;*/
     width: 48px;
     height: auto;
+    padding: 45%;
     border-radius: 10px;
     color: hsla(0, 0%, 100%, 0);
     
