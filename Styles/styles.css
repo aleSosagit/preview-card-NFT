@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+        /*CONTAINER CARD -------*/
+
+.container_card {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 100%;
+    max-width: 450px;
+    min-width: 375px;
+    flex-wrap: wrap;
+    padding: 2 rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+
+}
+
+    
+        /*CARD -------*/
+
+
+.card {
+    position: relative;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    padding: 4 rem;
+    flex-wrap: wrap;
+}
+
+.nft-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0 40px 0;
+    border-radius: 10px;
+    position: absolute;
+    background: hsla(178, 100%, 50%, 0);
+}
+
+.square:hover{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0 40px 0;
+    border-radius: 10px;
+    position: absolute;
+    background: hsla(178, 100%, 50%, 0.5);
+    cursor: pointer;
+}
+
+.PreviewImage{
+    width: 400px;
+    margin: 20px 0 40px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.View-icon{
+    position: absolute;
+    margin: 0auto;
+    width: 48px;
+    height: auto;
+    border-radius: 10px;
+    color: hsla(0, 0%, 100%, 0);
+    
+}
+
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600; 
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+h1:active{  
+    color: hsl(178, 100%, 44%);
+}
+
+
+.description p {
+    color: hsl(215, 51%, 70%);
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+
+
+        /*INFO -------*/
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 24px;
+    width: 100%;
+
+}
+
+.info .eth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+
+
+.info h2{
+    color: hsl(178, 100%, 50%);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.info .icon-ethereum{
+    height: 22px;
+    padding-right: 5px;
+}
+
+
+.info .day-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.info p{
+    padding-left: 5px;
+}
+
+hr{
+    width: 100%;
+    border-color: hsl(215, 51%, 70%);
+}
+
+
+        /*CREATOR -------*/
+
+.creator{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.creator img{
+    width: 40px;
+    height: auto;
+    border: solid 2px white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.creator p:nth-last-child(1){
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+}
+
+.creator p:nth-last-child(1):hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.creator p:nth-last-child(1):active{  
+    color: hsl(178, 100%, 44%);
+}
